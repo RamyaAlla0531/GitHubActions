@@ -31,9 +31,7 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-        cache: maven
-    - name: Build with Maven Clean
-      run: maven clean 
+        cache: maven 
     - name: Build with Maven Install
       run: maven install
     - name: Build with Maven Run
