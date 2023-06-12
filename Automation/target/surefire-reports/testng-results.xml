@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-09T15:13:49 IST" name="Suite" finished-at="2023-06-09T15:14:07 IST" duration-ms="18029">
+    <groups>
+    </groups>
+    <test started-at="2023-06-09T15:13:49 IST" name="Test" finished-at="2023-06-09T15:14:07 IST" duration-ms="18029">
+      <class name="com.testsuites.Datadriven">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testsuites.Datadriven@3cbcd8f3]" started-at="2023-06-09T15:13:59 IST" name="beforeClass" finished-at="2023-06-09T15:14:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="dataDrivenTest()[pri:0, instance:com.testsuites.Datadriven@3cbcd8f3]" started-at="2023-06-09T15:14:00 IST" name="dataDrivenTest" finished-at="2023-06-09T15:14:07 IST" duration-ms="7503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testsuites.Datadriven@3cbcd8f3]" started-at="2023-06-09T15:14:07 IST" name="afterClass" finished-at="2023-06-09T15:14:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.testsuites.Datadriven -->
+      <class name="com.testsuites.CreateStorybookSpec">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testsuites.CreateStorybookSpec@32b9bd12]" started-at="2023-06-09T15:13:49 IST" name="beforeClass" finished-at="2023-06-09T15:13:49 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test2()[pri:0, instance:com.testsuites.CreateStorybookSpec@32b9bd12]" started-at="2023-06-09T15:13:49 IST" name="test2" finished-at="2023-06-09T15:13:49 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="verifyLoginwithInValidInfo()[pri:0, instance:com.testsuites.CreateStorybookSpec@32b9bd12]" started-at="2023-06-09T15:13:49 IST" name="verifyLoginwithInValidInfo" description="Verify login with valid credentials" finished-at="2023-06-09T15:13:59 IST" duration-ms="9947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginwithInValidInfo -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testsuites.CreateStorybookSpec@32b9bd12]" started-at="2023-06-09T15:13:59 IST" name="afterClass" finished-at="2023-06-09T15:13:59 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.testsuites.CreateStorybookSpec -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,13 @@
+prod1url: https://nikhilp-prod1.inspify.com/hub
+prod2url: https://nikhilp-prod2.inspify.com/hub
+prod3url: https://nikhilp-prod2.inspify.com/hub
+
+credentials:
+  - username: nikhilp+prod1@inspify.com
+    password: Nikhilp@123
+
+  - username: nikhilp+prod1marketing1@inspify.com
+    password: Nikhilp@123
+   
+  - username: nikhilp+prod1designer2@inspify.com
+    password: Nikhilp@123
