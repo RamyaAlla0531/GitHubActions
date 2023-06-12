@@ -35,8 +35,6 @@ jobs:
         
     - name: Build with Maven Clean
       run: mvn clean
-    - name: Build with Maven Install
-      run: mvn install
     - name: Build with Maven Run
       run: mvn test
       
