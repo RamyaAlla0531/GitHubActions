@@ -18,6 +18,11 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    
+    env: 
+       test_env: Test Environment
+       username: ${{ secrets.User_Name}}
+       password: ${{ secrets.Pass_Word}}
 
     steps:
     - uses: actions/checkout@v3
