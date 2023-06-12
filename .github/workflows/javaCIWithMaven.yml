@@ -32,9 +32,12 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven 
+        
+    - name: Build with Maven Clean
+      run: mvn clean
     - name: Build with Maven Install
-      run: maven install
+      run: mvn install
     - name: Build with Maven Run
-      run: maven test
+      run: mvn test
       
       
