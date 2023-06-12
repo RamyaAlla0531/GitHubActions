@@ -20,7 +20,7 @@ jobs:
     runs-on: windows-latest
     
     env: 
-       test_env: Test Environment
+       test_env: ENV_TEST
        username: ${{ secrets.User_Name}}
        password: ${{ secrets.Pass_Word}}
 
